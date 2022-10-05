@@ -1,8 +1,8 @@
 {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
   {{ with .Site.Params.avatarURL }}
-    <div class="avatar"><img src="https://media-exp1.licdn.com/dms/image/C5603AQHhd28A4M1zDg/profile-displayphoto-shrink_800_800/0/1663490788094?e=1670457600&v=beta&t=_iux_JFDSn1Gxlnp8l1bcSkIbuKg7wmRu4Gy5opMAnw" alt="avatar"></div>
+    <div class="avatar"><img src="/images/logos/avatar.png" alt="avatar"></div>
   {{ end }}
 {{ end }}
 {{ with .Site.Params.gravatar }}
-  <div class="avatar"><img src="https://media-exp1.licdn.com/dms/image/C5603AQHhd28A4M1zDg/profile-displayphoto-shrink_800_800/0/1663490788094?e=1670457600&v=beta&t=_iux_JFDSn1Gxlnp8l1bcSkIbuKg7wmRu4Gy5opMAnw" alt="gravatar"></div>
+  <div class="avatar"><img src="/images/logos/avatar.png" alt="gravatar"></div>
 {{ end }}
