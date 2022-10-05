@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "https://dimas-web.netlify.app/"
 title = "dimaswisnuwirawan"
 theme = "hugo-coder"
 languageCode = "en"
