@@ -11,7 +11,7 @@ enableEmoji = true
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
 
-[params]
+[Params]
 author = "Dimas Wisnu Wirawan"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "John Doe's personal website"
@@ -74,7 +74,7 @@ customJS = []
 # connectionString = "connectionString"
 
 # If you want to implement a Content-Security-Policy, add this section
-[params.csp]
+[Params.csp]
 childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
@@ -103,37 +103,37 @@ series = "series"
 tag = "tags"
 author = "authors"
 
-[[params.social]]
+[[Params.social]]
 name = "Github"
 icon = "fa fa-2x fa-github"
 weight = 1
 url = "https://github.com/johndoe/"
 
-[[params.social]]
+[[Params.social]]
 name = "Gitlab"
 icon = "fa fa-2x fa-gitlab"
 weight = 2
 url = "https://gitlab.com/johndoe/"
 
-[[params.social]]
+[[Params.social]]
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 3
 url = "https://twitter.com/johndoe/"
 
-[[params.social]]
+[[Params.social]]
 name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/johndoe/"
 
-[[params.social]]
+[[Params.social]]
 name = "Medium"
 icon = "fa fa-2x fa-medium"
 weight = 5
 url = "https://medium.com/@johndoe"
 
-[[params.social]]
+[[Params.social]]
 name = "RSS"
 icon = "fa fa-2x fa-rss"
 weight = 6
